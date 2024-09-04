@@ -1,0 +1,133 @@
+
+/*css styling for image*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+ body{
+
+    min-height: 100vh;
+    min-width: 50vh;
+    background-color:hsl(30, 54%, 90%);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 5rem 2rem 5rem;
+    
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight:500;
+    }
+.paragraph, li{
+    font-family:"Outfit", sans-serif;
+    font-size: 400;
+}
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    tr {
+      border-bottom: 1px solid #ddd;
+    }
+
+    .container{
+        background-color: hsl(0, 0%, 100%);
+       min-width: 50%;
+        padding: 2rem;
+        border-radius: 1.5rem;
+        max-width: 70%;
+        line-height: 1.5;
+    }
+    
+.headimage{
+    border-radius: 1rem;
+    display:block;
+    line-height: 0;
+    max-width: 100%;
+    /* width: 50%; */
+}
+
+.prep-div > h2 {
+    font-family:"Outfit", sans-serif;
+    font-size: 400;
+}
+
+.prep-div{
+    background-color:hsl(30, 54%, 90%);
+    border-radius: 1rem;
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+    align-self: center;
+
+}
+hr{
+    margin: 1rem auto;
+}
+
+
+h2,h3{
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    color: hsl(332, 51%, 32%);
+
+
+}
+th{
+    font-family:"Outfit", sans-serif;
+    font-weight:normal; 
+}
+    
+    .red{ color: hsl(332, 51%, 32%);}
+table{
+    text-align: left;
+    line-height: 2rem;
+}
+ol,ul li::marker{
+    color:hsl(332, 51%, 32%);
+}
+
+
+
+/* // mobile design */
+@media (max-width:600px){
+
+    .container{
+height: 100%;
+flex: 1;
+max-width:fit-content;}
+
+h1{
+   font-weight: bold ;
+   text-align: center;
+}
+.paragraph{
+    text-align: center;
+}
+li{
+    list-style: none;
+}
+.prep-div{
+    max-width: 100%;
+flex-basis: 2rem;
+margin: 0;
+}
+    
+    
+    
+    
+    
+    
+    
+    }
+
+
